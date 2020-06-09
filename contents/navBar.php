@@ -1,4 +1,4 @@
-<?php echo "<br>"; ?>
+
     <div class="navContainer">
         <ul>
             <a id="navList" href='http://bit.ly/iamnahidFB'><img src="/assets/img/fb.png" alt=""/> </a>

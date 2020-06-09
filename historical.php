@@ -22,7 +22,6 @@
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
-    <?php include("./contents/navBar.php"); ?>
     <div class="container-fluid" style="text-align:center;">
         <h1 >All Historical Data</h1>
     </div> <br><br><br>

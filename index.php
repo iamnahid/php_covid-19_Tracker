@@ -22,14 +22,13 @@
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
-    <?php include("./contents/navBar.php"); ?>
     <div class="container-fluid" style="text-align:center;">
         <h1 >Covid-19 Tracker</h1>
     </div> <br><br><br>
     <div class="container" style="text-align:center;">
         <h1>Bangladesh</h1>
-        <a href="historical.php">BD Hhistorical Data last 30 Days</a>
-        <table class="table">
+        <i class="fas fa-arrow-right" style="color:lightgreen;"></i> <a href="historical.php">BD Historical Data last 30 Days</a><br>
+        <table class="table table-sm">
             <thead class="thead">            
                 <tr>
                     <th>Total Cases</th>
@@ -95,7 +94,7 @@
                 <?php foreach ($dataAll as $key => $value) {
                     // $increase = $value[$days_count]['confirmed'] - $value[$days_count_prev]['confirmed'] ;?>
                 <tr>
-                    <td style="color: lightblue;"><?=$value['country'];?></td>
+                    <td style="color: skyblue;"><?=$value['country'];?></td>
                     <td style="color: grey;"><?=$value['cases'];  ?> </td>
                     <td style="color: green;"><?=$value['recovered'];?></td>
                     <td style="color: red;"><?=$value['deaths'];?></td>
