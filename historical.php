@@ -22,12 +22,12 @@
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
+    <?php include("./contents/navBar.php"); ?>
     <div class="container-fluid" style="text-align:center;">
-        <h1 >Last 90 Days Historical Data</h1>
+        <h1 >All Historical Data</h1>
     </div> <br><br><br>
     
     <div class="container" style="text-align:center;">
-        <h1>World Wide Country Data</h1>
         <table class="table">
             <thead class="thead">            
                 <tr>
